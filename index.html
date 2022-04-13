@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body class="b2">
+    <header class="flex horizontal">
+        <div class="gavetao"> </div>
+        <img onclick="mudarPersonagem(0)" id="logo" src="imagens/logoxmen2.webp">
+        <a id="lego" href="login.html">Login</a>
+       </header>
+       <div class="flex horizontal caneca">
+        <aside class="lista flex vertical">
+            <button onclick="mudarPersonagem(1)">Wolverine</button>
+            <button onclick="mudarPersonagem(2)">Mistíca</button>
+            <button onclick="mudarPersonagem(3)">Tempestade</button>
+            <button onclick="mudarPersonagem(4)">Vampira</button>
+            <button onclick="mudarPersonagem(5)">Gambit</button>
+            <button onclick="mudarPersonagem(6)">Magneto</button>
+            <button onclick="mudarPersonagem(7)">Jean Grey</button>
+            <button onclick="mudarPersonagem(8)">Fera</button>
+            <button onclick="mudarPersonagem(9)">Noturno</button>
+        </aside>
+        <main class="flex horizontal">
+               <img id="personagem" src="imagens/x-menteam.webp" alt="x-men">
+               <div>
+                   <p id="nome">X-men team</p>
+                   <p id="descricao">Conheça a equipe dos x-men</p>
+               </div>
+           </main>
+        </div> 
+        <script src="main.js"></script>
+</body>
+</html>
